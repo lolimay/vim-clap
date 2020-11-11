@@ -96,7 +96,7 @@ nnoremap <silent> <buffer> <Tab> :<c-u>call clap#handler#tab_action()<CR>
 nnoremap <silent> <buffer> gg :<c-u>call clap#navigation#scroll('top')<CR>
 nnoremap <silent> <buffer> G  :<c-u>call clap#navigation#scroll('bottom')<CR>
 
-nnoremap <silent> <buffer> j :<c-u>call clap#navigation#linewise('down')<CR>
-nnoremap <silent> <buffer> k :<c-u>call clap#navigation#linewise('up')<CR>
+nnoremap <silent> <buffer> n :<c-u>call clap#navigation#linewise('down')<CR>
+nnoremap <silent> <buffer> p :<c-u>call clap#navigation#linewise('up')<CR>
 
 nnoremap <silent> <buffer> <S-Tab> :<c-u>call clap#action#invoke()<CR>
